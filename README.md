@@ -35,3 +35,6 @@ php artisan vendor:publish --provider="SanderCokart\MoreArtisanCommands\MoreArti
 ### Config Commands
 * #### `config:enumerate`
     Creates a new enum in the `app/Enums` folder where each case is a key from the config file.
+### Other Commands
+* #### `mc:remove-doc-comments {path}`
+  Removes all phpdoc comments from the given file or directory.

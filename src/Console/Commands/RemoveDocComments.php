@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 class RemoveDocComments extends Command
 {
-    protected $signature = 'sc:remove-doc-comments {path}';
+    protected $signature = 'mc:remove-doc-comments {path}';
     protected $description = 'Remove doc comments from files';
     
     public function handle(): void

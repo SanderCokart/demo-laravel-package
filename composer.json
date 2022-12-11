@@ -1,28 +1,27 @@
 {
-    "version": "0.4.0",
-    "name": "sandercokart/more-artisan-commands",
-    "description": "This package adds additional useful commands to the default laravel artisan commands.",
-    "require": {
-        "php": ">=8.1"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sander Cokart",
-            "email": "cokart32@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "SanderCokart\\MoreArtisanCommands\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SanderCokart\\MoreArtisanCommands\\MoreArtisanCommandsServiceProvider"
-            ]
-        }
+  "name": "sandercokart/more-artisan-commands",
+  "description": "This package adds additional useful commands to the default laravel artisan commands.",
+  "require": {
+    "php": ">=8.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sander Cokart",
+      "email": "cokart32@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "SanderCokart\\MoreArtisanCommands\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SanderCokart\\MoreArtisanCommands\\MoreArtisanCommandsServiceProvider"
+      ]
+    }
+  }
 }
